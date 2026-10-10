@@ -1,4 +1,4 @@
-# PCBTest1
+# PCBSensor
 
 ## MAX30102
 
