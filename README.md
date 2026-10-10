@@ -3,7 +3,7 @@
 ## MAX30102
 
 ## SSD1306
-The SSD1306 is a OLED display, mainly used to display information to the user when communicating with the interface. It communicates using the I2C protocol, which means only 4 connections are needed, generally as GND, VCC or VDD, SCL, and SDA.
+The SSD1306 is a OLED display, mainly used to display information to the user when communicating with the interface. It communicates using the I2C protocol, which means only 4 connections are needed, generally as GND, VCC or VDD, SCL, and SDA. The one being used is 128x64.
 
 ## What is GND, VCC, SCL and SDA?
 GND is the reference point for the vast majority of circuits and electronic designs, often as 0V. This is generally to keep circuits consistent and prevent uneven voltage points throughout circuit designs. VCC is generally the voltage potential of a source, often a battery of sorts. SCL is serial clock line, which mainly works as a clock or pulse in sending signals. Lastly, SDA is serial data access, which carries data bits.
