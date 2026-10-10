@@ -19,6 +19,7 @@ Here as such, is the wiring of the PCB. It is quite straightforward, mainly havi
 
 Using this as reference for Arduino Code https://lastminuteengineers.com/arduino-nano-pinout/ we can then code for communication to the other two embedded systems. One thing to note is that the Arduino Nano being used here only works with ATega328P (Old Bootloader). This depends on whether the Arduino Nano's being used are older and cheaper or newer.
 
+One thing to note is that a data transfer USB cable is required. Regular DC USB's for charging phones and such do not work for arduino nano.
 
 sources <br/>
 https://www.youtube.com/@HTMWorkshop <-- PCB design <br/>
