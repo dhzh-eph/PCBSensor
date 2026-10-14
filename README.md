@@ -1,6 +1,7 @@
 # PCBSensor
 
 ## MAX30102
+The MAX30102 is an integrated pulse oximetry (checks for oxygen levels) and heart rate monitor, often used in wearable electronics and fitness trackers. The sensor works through shining infrared LED and red LED into the skin, and a photodetector measures the amount of light reflected. This works because blood flow changes with every heartbeat, and in this case would absorb different amounts of light depending on oxygen, and the sensor can hence calculate heart rate and blood oxygen levels.
 
 ## SSD1306
 The SSD1306 is a OLED display, mainly used to display information to the user when communicating with the interface. It communicates using the I2C protocol, which means only 4 connections are needed, generally as GND, VCC or VDD, SCL, and SDA. The one being used is 128x64.
