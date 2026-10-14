@@ -10,6 +10,9 @@ GND is the reference point for the vast majority of circuits and electronic desi
 
 ## What is I2C?
 I2C also known as Inter-Integrated Circuit, is a communication protocol used for microcontrollers to sensors, displays and other peripheral devices.
+In particular, I2C uses just two wires for data transfer between devices. These two wires are SDA and SCL, SDA transmits data back and forth and SCL is the clock signal from the master device to synchronize data transmission.
+
+Devices are also often designed as Master-Slave architecture, the Master often as a microcontroller like an ESP32 or an Arduino in this case. The slave is the peripheral devices, like temperature sensors or OLED displays that listen for their address and act accordingly. Slave devices each have unique addressing, so one master can control multiple peripheral devices. Data is also sent one bit after another, synchronized accordingly to the clock pulses by the master.
 
 ## PCB Design
 Here is the image of the PCB on KiCad. 
